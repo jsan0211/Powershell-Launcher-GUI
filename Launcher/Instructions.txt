@@ -1,0 +1,40 @@
+IMO PowerShell Script Collection 05/05/2021 
+By 2-3 FA S6 Automations Team, 
+SPC Burgess, Drew J
+SPC Santiago, Jonathan A
+PFC Leonard, Reilly W 
+
+Intro: 
+I am going to keep this as brief as possible. 
+Welcome to the script collection. This took my team of three excellent soldiers roughly 4 months to get 
+where it is today. The collaboration effort has been extensive. Please do not take credit for work we 
+put countless hours into to make possible for all of you. 
+
+
+Instructions:
+Once you get the email, 
+
+Drag the collection package out of your email into the following directory on your computer.
+
+C:\temp
+
+This directory is case sensitive, so change it if your directory is C:\Temp or something similar but not
+exact. Right Click "Extract All". 
+
+Open Command Prompt with your SA/WA Token "CMD" as administrator. 
+Now type the following commands in order. [CASE SENSITIVE]
+
+cd C:\temp\Launcher
+
+powershell
+
+.\Launcher
+
+Great now you should be presented with the Launchers GUI!
+Congrats, Choose any script from the drop down menu and the launcher will prepare it for you.
+One final note I would like to mention. 
+Use the output windows associated with the selected script to check progress of the scripts progress as well
+as any instructions it may have for you. 
+Change logs for script updates can be found here: C:\temp\Launcher\Changelogs
+
+"99% of problems with computers are due to human error, lets be apart of the 1%" -SPC Burgess, Drew J    

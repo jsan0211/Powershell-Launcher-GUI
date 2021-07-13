@@ -1,0 +1,38 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210301111537
+Username: NASW\SYSTEM
+RunAs User: NASW\SYSTEM
+Configuration Name: 
+Machine: BLISWAEQT0NBW02 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe .\ApplicationsGUI.ps1
+Process ID: 3460
+PSVersion: 5.1.18362.1171
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1171
+BuildVersion: 10.0.18362.1171
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210301111537
+**********************
+PS>.\ApplicationsGUI.ps1
+************************************************************
+
+   Script Created By SPC Burgess 2-3 FA S6 Fort Bliss TX
+
+************************************************************
+
+No applications selected program safely exiting
+**********************
+Command start time: 20210301111624
+**********************
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20210301111624
+**********************

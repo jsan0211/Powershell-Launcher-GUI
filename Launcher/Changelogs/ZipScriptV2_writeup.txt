@@ -1,0 +1,53 @@
+Zip Script V2 Write Up 05/05/2021 
+By SPC Burgess, Drew J & By PFC Leonard, Reilly W
+
+Brief Note: 
+Zip Script V1 was never released outside of my unit but it made such an impact that we decided
+to release it with the script collection for you all. In the future we will likely open source
+all of our scripts but for now here is another addition to the script collect enjoy!
+
+
+
+Mandatory Input "HOSTNAME or IPV4 ADDRESS"
+Mandatory Directory Path + Filename
+Mandatory File Name re-entry. 
+
+Enter all of the required information.. Here is an example.
+BLISWAEQT0NBXXX
+\\ShareDrive\Directory\Directory\Filename.zip
+Filename.zip
+
+Official Instructions:
+
+You'll first enter the destination hostname of the system you want to recieve the files.
+Then copy and paste the path AND filename.zip of the file you want to copy.
+Your last step is going to be just putting the same filename.zip, as the one in the path, in the final box. 
+
+One last note I'd like to add.
+You may click on the instructions button for a reiteration of what I stated above.
+Awesome,now click LAUNCH! 
+
+
+If everything is entered correct you should see in the output window the following statements...
+
+Downloading Data Please Wait...
+Extracting Data Please Wait...
+Successfully Extracted Data
+Deleting Zip Archive From Remote Host : hostname 
+Script Finished, Script Ready!
+
+If no hostname was entered,   through using   If ($HNorIPV4 -and $null)   , the output window will read...
+No Hostname entered
+Script Exiting Current Process
+All Modules Exited
+
+If the path is entered incorrectly, through using   If ($FileName -and $null)   , the output window will read...
+No Path entered 
+Script Exiting Current Process...
+All Modules Exited
+
+If file name is entered incorrectly, through using   If ($FileName2Extract -and $null)   , the output window will read...
+No File Name entered 
+Script Exiting Current Process...
+All Modules Exited
+

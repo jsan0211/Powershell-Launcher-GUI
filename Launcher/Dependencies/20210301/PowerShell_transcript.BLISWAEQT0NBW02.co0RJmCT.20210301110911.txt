@@ -1,0 +1,48 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20210301110911
+Username: NASW\SYSTEM
+RunAs User: NASW\SYSTEM
+Configuration Name: 
+Machine: BLISWAEQT0NBW02 (Microsoft Windows NT 10.0.18363.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe .\ApplicationsGUI.ps1
+Process ID: 5156
+PSVersion: 5.1.18362.1171
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1171
+BuildVersion: 10.0.18362.1171
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+**********************
+Command start time: 20210301110911
+**********************
+PS>.\ApplicationsGUI.ps1
+************************************************************
+
+   Script Created By SPC Burgess 2-3 FA S6 Fort Bliss TX
+
+************************************************************
+
+Installing Google Chrome on remote Computer : BLISWAEQT0NB177
+
+PsExec v2.2 - Execute processes remotely
+Copyright (C) 2001-2016 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+Couldn't access BLISWAEQT0NB177:
+The network path was not found.
+
+Make sure that the default admin$ share is enabled on BLISWAEQT0NB177.
+Chrome Installer finished on remote host : BLISWAEQT0NB177
+**********************
+Command start time: 20210301111032
+**********************
+PS>$global:?
+True
+**********************
+Windows PowerShell transcript end
+End time: 20210301111033
+**********************

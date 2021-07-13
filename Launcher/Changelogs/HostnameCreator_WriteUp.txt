@@ -1,0 +1,21 @@
+Hostname Creator Script Explanation 05/05/2021 
+By PFC Leonard, Reilly W
+
+Hostname Creator is used to create and add hostnames to Active Directory.
+
+If you launched the Hostname Creator selection, your window will appear now.
+
+You first input the new Hostname in the box using "New-ADComputer -Name $Computer -SamAccountName $SamAccountName -Path $ADPathContent -Enabled $true"
+Now you will input the new SAN
+Enter the Security Group of the organization you're part of using "-Identity $Group -Members $User -Server "nasw.ds.army.mil""
+
+Now, click the EDIT PATH button and a Notepad window will pop up in a couple seconds using " -Wait -PSpath "notepad.exe". This will execute the command 
+and you will then type in the path to your organizations Active Directory.
+
+Now close the Notepad window and click the SET PATH button. 
+
+Finally, you may now enter a New Description which uses "Set-ADComputer -Identity $User -Description $PCDescription"
+
+Make sure to check the output window while running the selected script for script progress and/or instructions!!
+
+

@@ -1,0 +1,28 @@
+ApplicationsGUI.ps1 Write Up 05/05/2021 
+By SPC Burgess, Drew J
+
+
+Features: 
+- Logging
+- File Reading for Share Drive Paths
+- Remote Execution of applications
+- Dynamic Script Status Checking
+- Custom Input for Hostname / IPV4 Address
+- Disable Logging with full functionaliy
+- Execution Buttons [RUN/ENTER KEY]
+- Abort Buttons [CANCEL/ESC KEY]
+
+Instructions: 
+All Application paths have been updated to read from a file located here: 
+C:\temp\Launcher\Dependencies\Directories
+
+Feel free to change any path to your share drive / NEC's Share Drive.
+The WinGUI Installation is handled locally as my Network Enterprise Center has removed the installer
+from there share drive at the time of this release. Installer is still valid and compliant for NIPR systems.
+
+Do not Edit the file name located here: 
+C:\temp\Launcher\Dependencies\Packages
+
+The script is hard coded to read both the zip file and executable located inside. 
+
+If you have any questions please feel free to reach out to me directly: drew.j.burgess.mil@mail.mil

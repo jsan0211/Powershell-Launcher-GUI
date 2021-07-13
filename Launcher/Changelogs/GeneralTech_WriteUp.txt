@@ -1,0 +1,39 @@
+General Tech Script Explanation 05/05/2021 
+By PFC Leonard, Reilly W
+
+General Tech is used for daily remote management tasks like pinging, querying information, running cmd or powershell,
+deleting/enabling local admins and more!!
+
+If you launched the General Tech selection, your window will appear now.
+Enter the hostname of the system you're trying to access.
+
+Here is how each button works!!
+
+PLEASE NOTE:
+Click the button ONCE, don't spam it. The progress will report in the output window and let you know when complete or 
+needs you to do something.
+
+Ping- Runs the command "ping" and outputs a .txt file of information 
+IP Info- Runs the command "ipconfig" and outputs a .txt file of information
+Restart- Runs the command "-s shutdown -r -t 0" then immediately restarts the PC
+Shutdown- Runs the command "-s shutdown -s -t 0" then immediately shuts down the PC
+CMD- Opens an administrator CMD window using "-s -i cmd"
+Powershell- Opens an administrator PowerShell ISE window using "-s -i Powershell"
+Enable Local Admin- Enables local administrator using "-s net user Joe.Smith 37Jek!*T4g37Jek /add /Y"
+Delete Local Admin- Deletes local administrator using "-s net user Joe.Smith /Active:no"
+Monitor Bitlocker Status- Shows all info about bitlocker encryption using "-s manage-bde -status"
+Disable Bitlocker- Disables Bitlocker using the command "-s manage-bde -off C:"
+Query Bitlocker Key/ Backup to AD- Pulls the Bitlocker Key using "manage-bde -protectors -get C:" and then backs up to AD using "manage-bde -protectors -adbackup C: -id"
+Install PSEXEC- Installs PS Tools using lines 995-1000
+Query Serial Number- Pulls and Displays the Serial Number using "-s wmic bios get SerialNumber"
+Query Installed Apps- Pulls and Displays the Installed Apps using "-s cmd /c wmic product get name"
+Clear Console Output- Clears the output window using the command "-s cls"
+
+You can select any of the buttons now for tasks BESIDES Query Users.
+In order to use Query Users you will have to select one of the options in the drop down menu first, THEN click the button.
+
+Query Users
+Active Logged In Users: Displays everybody who is currently logged into the target computer
+Local Users: Displays local accounts on the target computer
+Account Profiles: Displays what network account profiles are currently on target computer
+
